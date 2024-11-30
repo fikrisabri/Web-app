@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75),
+	rgba(0, 0, 0, 0.1)),url(background4.jpg);
+	background-position: center;
+	background-size: cover;
+}
+body{
+	font-family: 'Baloo 2', cursive;
+}
+h1{
+	font-size: 40px;
+	color: #fff;
+}
+P{
+	color: #fff;
+}
+a{
+	text-decoration: none;
+	color: #115035;
+}
+input, textarea, select{
+	width: 100%;
+	background-color: #141824;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-family: 'Baloo 2', cursive;
+	margin-top: 5px;
+	resize: none;
+	color: #fff;
+	border-radius: 10px;
+
+}
+.bf-body-box{
+	padding: 20px;
+}
+.bf-row{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0;
+
+}
+.bf-col-12{
+	width: 100%;
+}
+.bf-col-3{
+	width: 30%;
+}
+.bf-col-6{
+	width: 48%;
+}
+.bf-head{
+	text-align: center;
+}
+.bf-head,bf-footer{
+	background-color: #141824;
+	padding: 20px 10px;
+}
+>bf-head p{
+	color: #115035;
+}
+.bf-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	overflow: auto;
+	padding: 20px 16px;
+	background-color: #1d2228;
+}
+.bf-body{
+	width: 500px;
+	background-color: #1d1d2c;
+}
+
+@media screen and (max-width:600px) {
+
+.bf-row {
+	flex-direction: column;
+	padding: 0;
+}
+
+.bf-col-12{
+	padding: 10px p;
+	width: 100%;
+}
+.bf-col-3{
+	padding: 10px p;
+	width: 30%;
+}
+.bf-col-6{
+	padding: 10px p;
+	width: 100%;
+}
+.bf-container{
+	padding: 50px 16px;
+}
+}

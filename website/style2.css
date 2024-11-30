@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75),
+	rgba(0, 0, 0, 0.1)),url(background5.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 140px;
+	cursor: pointer;
+	border-radius: 12px;
+	height: 100px;
+}
+.navbar ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+	content: '';
+	height: 5px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10;
+	transition: 0.5s;
+}
+.navbar ul li:hover:after{
+	width: 100%;
+}
+.content{
+	width: 1650px;
+	height: auto;
+	margin: 150px;
+	position: relative;
+	color: whitesmoke;
+}
+.content h1{
+	font-size: 70px;
+	margin-top: 40px;
+	font-family: Gill Sans Nova Cond Ultra Bold;
+}
+.content p{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+	font-family: Gill Sans Nova Cond Ultra Bold;
+	font-size: 30px;
+}
+.content p1{
+	margin: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: justify;
+
+
+.content1 p2{
+	margin-top: 20px auto;
+	font-weight: 100;
+	line-height: 25px;
+	font-family: Arial;
+	font-size: 15px;
+	text-align: justify;
+}

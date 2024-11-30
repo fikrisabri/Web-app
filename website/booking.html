@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Booking Form</title>
+	<link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<div class="bf-container">
+	<div class="bf-body">
+			<div class="bf-head">
+				<h1>Booking Form</h1>
+			    <p>|-Lets start To booking Now-|</p>
+			    <p>You can make half day rent. Just messages us..</p>
+			</div>
+			
+		<form class ="bf-body-box" action="Booking.php" method="POST">
+			<div class="bf-row">
+				<div class="bf-col-6">
+					<p>Your Name</p>
+					<input type="text" name="Your_Name" placeholder="Your Name">
+				</div>
+				<div class="bf-col-6">
+					<p>Email Address</p>
+					<input type="text" name="Email_Address" placeholder="Email Address">
+				</div>
+			</div>
+
+			<div class="bf-row">
+				<div class="bf-col-6">
+					<p>Booking Date</p>
+					<input type="date" name="Booking_Date">
+				</div>
+				<div class="bf-col-6">
+					<p>Return Date</p>
+					<input type="date" name="Return_Date">
+				</div>
+			</div>
+
+
+			<div class="bf-row">
+			<div class="bf-col-6">
+					<p>Phone No</p>
+					<input type="No" name="Phone_No"  placeholder="+6012345678">
+			</div>
+
+			<div class="bf-col-6">
+				<p>Select Cars</p>
+				<select name="s-select">
+    				<option value="">Select Cars</option> 
+					<option value="Proton Saga">PROTON SAGA</option>
+					<option value="Proton Iriz">PROTON IRIZ</option>
+					<option value="Proton X50">PROTON X50</option>
+					<option value="Perodua Alza">PERODUA ALZA</option>
+					<option value="Perodua Axia">PERODUA AXIA</option>
+					<option value="Perodua Myvi">PERODUA MYVI</option>
+					<option value="Honda Br-v">HONDA BR-V</option>
+					<option value="Honda Jazz">HONDA JAZZ</option>
+					<option value="Honda City">HONDA CITY</option>
+					<option value="Toyota Rush">TOYOTA RUSH</option>
+					<option value="Toyota Vios">TOYOTA VIOS</option>
+					<option value="Toyota Yaris">TOYOTA YARIS</option>
+				</select>
+				</div>
+			</div>
+
+
+
+			<div class="bf-row">
+				<div class="bf-col-12">
+					<p>Messages</p>
+				<textarea name="Messages" cols="10" rows="2"></textarea>
+				</div>
+			</div>
+
+			<div class="bf-row">
+				<div class="bf-col-3">
+					<input type="Submit" value="Submit">
+				</div>
+
+			</div>
+       </form>
+
+       <div class="bf-footer">
+       	<p>Designed By <a href="#">|-MARK YIE-|</a></p>
+       </div>
+    </div>
+</div>	
+		
+</body>
+</html>
